@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "python.linting.enabled": false,
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
+    ],
+    "python.formatting.provider": "black",
+    "yaml.validate": false
+}
