@@ -1,5 +1,6 @@
 # Distribution / packaging
 .Python
+.env*
 env/
 build/
 develop-eggs/
@@ -18,3 +19,4 @@ var/
 
 # Serverless directories
 .serverless
+node_modules/
